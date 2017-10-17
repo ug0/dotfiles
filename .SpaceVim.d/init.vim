@@ -43,3 +43,6 @@ let g:clang2_placeholder_prev = ''
 " custom config
 let g:spacevim_relativenumber = 0
 let g:spacevim_custom_plugins = [ ['posva/vim-vue'] ]
+set tabstop=2
+set shiftwidth=2
+set expandtab
