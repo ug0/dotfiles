@@ -17,6 +17,7 @@ call SpaceVim#layers#load('lang#swig')
 call SpaceVim#layers#load('lang#tmux')
 call SpaceVim#layers#load('lang#vim')
 call SpaceVim#layers#load('lang#xml')
+call SpaceVim#layers#load('lang#vue')
 call SpaceVim#layers#load('shell')   
 call SpaceVim#layers#load('tools#screensaver')
 let g:spacevim_enable_vimfiler_welcome = 1
@@ -43,6 +44,10 @@ let g:clang2_placeholder_prev = ''
 " custom config
 let g:spacevim_relativenumber = 0
 let g:spacevim_custom_plugins = [ ['posva/vim-vue'] ]
+let g:spacevim_windows_leader = '_'
+let g:spacevim_unite_leader = '-'
+let g:spacevim_lint_on_save = 0
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set mouse=r
