@@ -1,0 +1,35 @@
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "window.zoomLevel": 0,
+    "workbench.editor.enablePreview": false,
+    "editor.tabSize": 2,
+    "vim.useCtrlKeys": false,
+    "workbench.panel.location": "bottom",
+    "beautify.language": {
+        "vue": {
+            "tab_size": 2,
+            "indent_size": 2,
+            "ext": ["vue"]
+        }
+        "js": {
+            "tab_size": 2,
+            "indent_size": 2,
+            "type": [
+                "javascript",
+                "json"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautify"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ]
+    },
+}
