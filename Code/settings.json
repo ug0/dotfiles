@@ -4,13 +4,16 @@
     "workbench.editor.enablePreview": false,
     "editor.tabSize": 2,
     "vim.useCtrlKeys": false,
+    "vim.handleKeys": {
+        "<C-d>": false
+    },
     "workbench.panel.location": "bottom",
     "beautify.language": {
         "vue": {
             "tab_size": 2,
             "indent_size": 2,
             "ext": ["vue"]
-        }
+        },
         "js": {
             "tab_size": 2,
             "indent_size": 2,
@@ -29,7 +32,10 @@
         ],
         "html": [
             "htm",
-            "html"
+            "html",
+            "Eex",
+            "HTML (Eex)"
         ]
     },
+    "emmet.triggerExpansionOnTab": true,
 }
