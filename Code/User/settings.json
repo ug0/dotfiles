@@ -1,13 +1,12 @@
 {
-    "vim.disableAnnoyingNeovimMessage": true,
     "window.zoomLevel": 0,
     "workbench.editor.enablePreview": false,
     "editor.tabSize": 2,
     "vim.useCtrlKeys": false,
+    "vim.cmdLineInitialColon": true,
     "vim.handleKeys": {
         "<C-d>": false
     },
-    "workbench.panel.location": "bottom",
     "beautify.language": {
         "vue": {
             "tab_size": 2,
@@ -31,11 +30,12 @@
             "scss"
         ],
         "html": [
+            "erb",
             "htm",
             "html",
             "Eex",
             "HTML (Eex)"
         ]
     },
-    "emmet.includeLanguages": {"HTML (Eex)": "html"},
+    "emmet.includeLanguages": {"HTML (Eex)": "html", "erb": "html"},
 }
