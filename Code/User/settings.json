@@ -37,5 +37,10 @@
             "HTML (Eex)"
         ]
     },
-    "emmet.includeLanguages": {"HTML (Eex)": "html", "erb": "html"},
+    "emmet.includeLanguages": {
+        "HTML (Eex)": "html",
+        "erb": "html"
+    },
+    "ruby.codeCompletion": "rcodetools",
+    "telemetry.enableTelemetry": false,
 }
