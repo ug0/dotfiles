@@ -3,7 +3,6 @@
     "workbench.editor.enablePreview": false,
     "editor.tabSize": 2,
     "vim.useCtrlKeys": false,
-    "vim.cmdLineInitialColon": true,
     "vim.handleKeys": {
         "<C-d>": false
     },
