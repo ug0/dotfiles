@@ -42,4 +42,6 @@
     },
     "ruby.codeCompletion": "rcodetools",
     "telemetry.enableTelemetry": false,
+    "workbench.colorTheme": "dark+(elixir)",
+    "breadcrumbs.enabled": true,
 }
