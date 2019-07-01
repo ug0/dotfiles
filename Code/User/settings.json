@@ -32,12 +32,12 @@
             "erb",
             "htm",
             "html",
-            "Eex",
-            "HTML (Eex)"
+            "EEx",
+            "HTML (EEx)"
         ]
     },
     "emmet.includeLanguages": {
-        "HTML (Eex)": "html",
+        "HTML (EEx)": "html",
         "erb": "html"
     },
     "ruby.codeCompletion": "rcodetools",
