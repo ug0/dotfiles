@@ -32,8 +32,8 @@
             "erb",
             "htm",
             "html",
-            "EEx",
-            "HTML (EEx)"
+            "Eex",
+            "HTML (Eex)"
         ]
     },
     "emmet.includeLanguages": {
@@ -44,4 +44,14 @@
     "telemetry.enableTelemetry": false,
     "workbench.colorTheme": "dark+(elixir)",
     "breadcrumbs.enabled": true,
+    "window.titleBarStyle": "native",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "explorer.confirmDelete": false,
+    "[elixir]": {
+        "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.allowChords": false,
 }
