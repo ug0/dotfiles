@@ -40,6 +40,10 @@
         "HTML (EEx)": "html",
         "erb": "html"
     },
+    "files.associations": {
+        "*.eex": "HTML (EEx)",
+        "*.leex": "HTML (EEx)"
+    },
     "ruby.codeCompletion": "rcodetools",
     "telemetry.enableTelemetry": false,
     "workbench.colorTheme": "dark+(elixir)",
@@ -48,7 +52,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "explorer.confirmDelete": false,
     "[elixir]": {
-        "editor.defaultFormatter": "JakeBecker.elixir-ls"
+        "editor.defaultFormatter": "elixir-lsp.elixir-ls"
     },
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
