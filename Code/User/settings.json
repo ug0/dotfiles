@@ -6,43 +6,8 @@
     "vim.handleKeys": {
         "<C-d>": false
     },
-    "beautify.language": {
-        "vue": {
-            "tab_size": 2,
-            "indent_size": 2,
-            "ext": ["vue"]
-        },
-        "js": {
-            "tab_size": 2,
-            "indent_size": 2,
-            "type": [
-                "javascript",
-                "json"
-            ],
-            "filename": [
-                ".jshintrc",
-                ".jsbeautify"
-            ]
-        },
-        "css": [
-            "css",
-            "scss"
-        ],
-        "html": [
-            "erb",
-            "htm",
-            "html",
-            "Eex",
-            "HTML (Eex)"
-        ]
-    },
     "emmet.includeLanguages": {
-        "HTML (EEx)": "html",
         "erb": "html"
-    },
-    "files.associations": {
-        "*.eex": "HTML (EEx)",
-        "*.leex": "HTML (EEx)"
     },
     "ruby.codeCompletion": "rcodetools",
     "telemetry.enableTelemetry": false,
