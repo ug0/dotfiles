@@ -7,7 +7,8 @@
         "<C-d>": false
     },
     "emmet.includeLanguages": {
-        "erb": "html"
+        "erb": "html",
+        "html-eex": "html"
     },
     "ruby.codeCompletion": "rcodetools",
     "telemetry.enableTelemetry": false,
