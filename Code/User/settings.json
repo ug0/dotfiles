@@ -1,5 +1,4 @@
 {
-    "window.zoomLevel": 0,
     "workbench.editor.enablePreview": false,
     "editor.tabSize": 2,
     "vim.useCtrlKeys": false,
@@ -8,7 +7,9 @@
     },
     "emmet.includeLanguages": {
         "erb": "html",
-        "html-eex": "html"
+        "ruby": "html",
+        "html-eex": "html",
+        "phoenix-heex": "html"
     },
     "ruby.codeCompletion": "rcodetools",
     "telemetry.enableTelemetry": false,
@@ -18,10 +19,37 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "explorer.confirmDelete": false,
     "[elixir]": {
-        "editor.defaultFormatter": "elixir-lsp.elixir-ls"
+        "editor.defaultFormatter": "JakeBecker.elixir-ls"
     },
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "terminal.integrated.allowChords": false,
+    "FSharp.useSdkScripts": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[phoenix-heex]": {
+        "editor.defaultFormatter": "RoyalMist.vscode-eex-format"
+    },
 }
