@@ -1,13 +1,8 @@
 {
-    "workbench.editorAssociations": {
-        "*.sqlite": "default"
-    },
     "vim.useCtrlKeys": false,
     "vim.handleKeys": {
         "<C-d>": false
     },
-    "sqliteViewer.maxFileSize": 1000,
-    "security.workspace.trust.untrustedFiles": "open",
     "editor.tabSize": 2,
     "emmet.includeLanguages": {
         "erb": "html",
