@@ -13,4 +13,15 @@
     "[elixir]": {
         "editor.defaultFormatter": "JakeBecker.elixir-ls"
     },
+    "markdown-pdf.displayHeaderFooter": false,
+    "terminal.integrated.allowChords": false,
+    "[ruby]": {
+        "editor.defaultFormatter": "castwide.solargraph"
+    },
+    "chat.editing.alwaysSaveWithGeneratedChanges": true,
+    "window.openFilesInNewWindow": "on",
+    "redhat.telemetry.enabled": false,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.chat.agent.thinkingTool": true,
+    "mssql.connections": [],
 }
