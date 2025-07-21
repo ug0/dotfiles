@@ -18,10 +18,10 @@
     "[ruby]": {
         "editor.defaultFormatter": "castwide.solargraph"
     },
-    "chat.editing.alwaysSaveWithGeneratedChanges": true,
     "window.openFilesInNewWindow": "on",
     "redhat.telemetry.enabled": false,
     "github.copilot.nextEditSuggestions.enabled": false,
     "github.copilot.chat.agent.thinkingTool": true,
     "mssql.connections": [],
+    "docker.extension.enableComposeLanguageServer": false,
 }
